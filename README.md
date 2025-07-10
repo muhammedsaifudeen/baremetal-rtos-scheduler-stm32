@@ -76,7 +76,7 @@ When switching context, registers are saved/restored using a well-defined stack 
 
     Open the folder in STM32CubeIDE
 
-    Build the project (Ctrl+B)
+    Build the project (Ctrl + B)
 
     Connect the board and click Debug
 
@@ -84,7 +84,7 @@ When switching context, registers are saved/restored using a well-defined stack 
 
 🧪 SWV Output (Optional)
 
-This project uses printf() redirected to ITM for real-time debug:
+This project uses printf() redirected to ITM for real-time debug output:
 
 printf("Task 1 running\n");
 
@@ -96,17 +96,16 @@ To view the output:
 
     Set core clock = 84 MHz
 
-    Start trace session to view task logs
+    Start the trace session to view task logs
 
-📚 References
+## 📚 References
 
-    STM32F401RE Reference Manual
+- [📘 STM32F401RE Reference Manual (RM0368)](https://www.st.com/resource/en/reference_manual/dm00096844-stm32f401xbc-and-stm32f401xe-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
+- [🧠 ARM Cortex-M4 Processor TechRef Manual](https://developer.arm.com/documentation/100166/latest/)
+- [📦 CMSIS-Core Documentation (ARM)](https://arm-software.github.io/CMSIS_5/Core/html/index.html)
+- [🛠️ STM32 SWV Debugging Guide (ST Community Article)](https://community.st.com/s/article/FAQ-How-to-use-SWV-SWO-on-STM32)
+- [📄 ARM Cortex-M Exception Handling Guide](https://interrupt.memfault.com/blog/cortex-m-rtos-context-switching)
 
-    ARM Cortex-M4 TechRef
-
-    CMSIS-Core
-
-    STM32 SWV Guide
 
 🙋 Why Use This?
 
@@ -122,4 +121,4 @@ To view the output:
 
 📜 License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
